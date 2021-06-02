@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localizationDictionary culture="en">
+  <texts>
+    <text name="HomePage" value="Home page" />
+    <text name="About" value="About" />
+    <text name="WelcomeMessage" value="Welcome to Gateway!" />
+
+    <text name="Gateways" value="Gateways" />
+
+    <text name="UniqueSerialNumber" value="Unique Serial Number" />
+    <text name="HumanReadableName" value="Human Readable Name" />
+
+    <text name="UID" value="UID" />
+    <text name="Vendor" value="Vendor" />
+    <text name="Status" value="Status" />
+    <text name="DateCreated" value="Date created" />
+
+    <text name="PeripheralDevice" value="Peripheral Device" />
+    <text name="PeripheralDevices" value="Peripheral Devices" />
+
+    <text name="NewPeripheralDevice" value="New Peripheral Device" />
+    <text name="CreatePeripheralDevice" value="Create Peripheral Device" />
+    <text name="CreateNewGate" value="Create Gateway" />
+    <text name="PeripheralDeviceDetails" value="Peripheral Device details" />
+    
+    <text name="NewGateway" value="New Gateway" />
+    <text name="EditGate" value="Edit Gateway" />
+    <text name="GateDetails" value="Gateway details" />
+
+    <text name="Save" value="Save" />
+    <text name="Cancel" value="Cancel" />
+
+    <text name="FormIsNotValidMessage" value="Form is not valid. Please check and fix errors." />
+    <text name="InvalidUserNameOrPassword" value="Invalid user name or password" />
+
+    <text name="SuccessfullyDeleted" value="Successfully deleted" />
+    <text name="UserIsNotActiveAndCanNotLogin" value="User {0} is not active and can not log in." />
+    <text name="PleaseEnterLoginInformation" value="Please enter login information" />
+
+    <text name="UserNameOrEmail" value="User name or email" />
+    <text name="Password" value="Password" />
+
+    <text name="RememberMe" value="Remember me" />
+    <text name="LogIn" value="Log in" />
+    <text name="LoginFailed" value="Login failed!" />
+
+    <text name="SavedSuccessfully" value="Saved successfully" />
+
+    <text name="Yes" value="Yes" />
+    <text name="No" value="No" />
+    <text name="Back">Back</text>
+    <text name="Edit">Edit</text>
+    <text name="Delete">Delete</text>
+    <text name="Actions">Actions</text>
+    <text name="Clear">Clear</text>
+    <text name="ClearAll">Clear all</text>
+    <text name="ClearOthers">Clear others</text>
+    <text name="LabelOptions">Label options</text>
+
+    <text name="Refresh">Refresh</text>
+    <text name="Create">Create</text>
+
+    <text name="Version">Version</text>
+    <text name="On">On</text>
+    <text name="Off">Off</text>
+    <text name="AreYouSureWantToDelete">Are you sure want to delete {0}?</text>
+
+    <text name="Filter">Filter</text>
+
+    <text name="App">APP</text>
+    <text name="Main">MAIN</text>
+    <text name="Management">MANAGEMENT</text>
+
+    <text name="IPV4MustBeAtLeast7CharactersContainNumbersAndPoints">IPV4 must have at least 7 characters and contain only numbers and points</text>
+    <text name="ToManyPeripheralException">Only 10 peripheral devices are allowed for a gateway</text>
+
+  </texts>
+</localizationDictionary>

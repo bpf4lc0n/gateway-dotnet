@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localizationDictionary culture="es">
+  <texts>
+    <text name="HomePage" value="Inicio" />
+    <text name="About" value="Acerca de" />
+    <text name="WelcomeMessage" value="Bienvenido Gateway!" />
+
+    <text name="Gateways" value="Gateways" />
+
+    <text name="UniqueSerialNumber" value="Número de serie único" />
+    <text name="HumanReadableName" value="Nombre legible por humanos" />
+
+    <text name="UID" value="UID" />
+    <text name="Vendor" value="Vendedor" />
+    <text name="Status" value="Estado" />
+    <text name="DateCreated" value="Fecha de creación" />
+
+    <text name="PeripheralDevice" value="Dispositivo periférico" />
+    <text name="PeripheralDevices" value="Dispositivos periféricos" />
+
+    <text name="NewPeripheralDevice" value="Nuevo Dispositivo periférico" />
+    <text name="CreatePeripheralDevice" value="Crear Dispositivo periférico" />
+    <text name="CreateNewGate" value="Crear Gateway" />
+    <text name="PeripheralDeviceDetails" value="Detalles de Dispositivo periférico" />
+
+    <text name="NewGateway" value="Nuevo Gateway" />
+    <text name="EditGate" value="Editar Gateway" />
+    <text name="GateDetails" value="Detalles de Gateway" />
+
+    <text name="Save" value="Guardar" />
+    <text name="Cancel" value="Cancelar" />
+
+    <text name="FormIsNotValidMessage" value="El formulario no es válido. Verifique y corrija los errores." />
+    <text name="InvalidUserNameOrPassword" value="Usuario o contraseña invalido" />
+
+    <text name="SuccessfullyDeleted" value="Eliminado con éxito" />
+    <text name="UserIsNotActiveAndCanNotLogin" value="Usuario {0} no está activo y no puede iniciar sesión." />
+    <text name="PleaseEnterLoginInformation" value="Ingrese la información de inicio de sesión" />
+
+    <text name="UserNameOrEmail" value="Nombre de usuario o correo electrónico" />
+    <text name="Password" value="Contraseña" />
+
+    <text name="RememberMe" value="Recordar" />
+    <text name="LogIn" value="Inicio de sesión" />
+    <text name="LoginFailed" value="Error de inicio de sesion!" />
+
+    <text name="SavedSuccessfully" value="Guardado exitosamente" />
+
+    <text name="Yes" value="Si" />
+    <text name="No" value="No" />
+    <text name="Back">Atrás</text>
+    <text name="Edit">Editar</text>
+    <text name="Delete">Eliminar</text>
+    <text name="Actions">Acciones</text>
+    <text name="Clear">Limpiar</text>
+    <text name="ClearAll">Limpiar todo</text>
+    
+    <text name="ClearOthers">Clear others</text>
+    <text name="LabelOptions">Label options</text>
+
+    <text name="Refresh">Refrescar</text>
+    <text name="Create">Crear</text>
+
+    <text name="Version">Version</text>
+    <text name="On">On</text>
+    <text name="Off">Off</text>
+    <text name="AreYouSureWantToDelete">Are you sure want to delete {0}?</text>
+
+    <text name="Filter">Filtrar</text>
+
+    <text name="App">APP</text>
+    <text name="Main">MAIN</text>
+    <text name="Management">MANAGEMENT</text>
+
+    <text name="IPV4MustBeAtLeast7CharactersContainNumbersAndPoints">IPV4 debe tener al menos 7 caracteres y contener solo números y puntos</text>
+    <text name="ToManyPeripheralException">Solo se permiten 10 dispositivos periféricos para una puerta de enlace</text>    
+  </texts>
+</localizationDictionary>
