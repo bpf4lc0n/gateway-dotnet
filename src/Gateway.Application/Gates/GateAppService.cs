@@ -67,7 +67,7 @@
         {
             try
             {
-                if (ValidationHelper.IsIpv4(input.IPV4_address))
+                if (!ValidationHelper.IsIpv4(input.IPV4_address))
                     throw new Ipv4InvalidException("IPV4MustBeAtLeast7CharactersContainNumbersAndPoints");
                 else
                 {
@@ -91,5 +91,7 @@
                 throw;
             }
         }
+
+        // TODO > OVERRIDE EDIT GATE. ADD VALIDATION.
     }
 }
