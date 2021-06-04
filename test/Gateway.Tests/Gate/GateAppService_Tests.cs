@@ -3,6 +3,9 @@ using Shouldly;
 using Xunit;
 using Gateway.Gates;
 using Gateway.Gates.Dto;
+using Gateway.Validation;
+using System;
+using Gateway.Exceptions;
 
 namespace Gateway.Tests.Gates
 {
@@ -49,6 +52,38 @@ namespace Gateway.Tests.Gates
                     partValue.ShouldBeGreaterThanOrEqualTo(0);
                     partValue.ShouldBeLessThanOrEqualTo(255);
                 }
+            }
+        }
+
+        [Fact]
+        public void Should_Ipv4_IsValid_Work()
+        {
+            var ipv4_1 = "aa.1.1.1";
+            var ipv4_2 = "999.1.1.1";
+            var ipv4_3 = "1.1.1.1";
+
+            ValidationHelper.IsIpv4(ipv4_1).ShouldBeFalse();
+            ValidationHelper.IsIpv4(ipv4_2).ShouldBeFalse();
+            ValidationHelper.IsIpv4(ipv4_3).ShouldBeTrue();
+        }
+
+        [Fact]
+        public async Task Should_Raise_Error_When_Ipv4_Is_Wrong()
+        {
+            var value = new CreateGateDto()
+            {
+                IPV4_address = "999.1.1.1",
+                Human_readable_name = "Human_readable_name",
+                Unique_serial_number = Guid.NewGuid().ToString()
+            };
+
+            try
+            {
+                await _GateAppService.CreateAsync(value);
+            }
+            catch (System.Exception e)
+            {
+                e.GetType().ShouldBeOfType(typeof(Ipv4InvalidException));
             }
         }
     }

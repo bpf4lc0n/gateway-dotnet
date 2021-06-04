@@ -19966,3 +19966,109 @@ INFO  2021-06-03 09:15:25,512 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics -
 INFO  2021-06-03 09:15:25,713 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
 INFO  2021-06-03 09:15:26,133 [15   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
 INFO  2021-06-03 09:15:26,496 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 781.8571ms 200 application/json;charset=utf-8
+DEBUG 2021-06-04 11:52:29,939 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-06-04 11:52:30,153 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2021-06-04 11:52:30,170 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Gateway.Web.Host.Startup.GatewayWebHostModule, Gateway.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-06-04 11:52:30,171 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Gateway.GatewayWebCoreModule, Gateway.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-06-04 11:52:30,172 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Gateway.GatewayApplicationModule, Gateway.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-06-04 11:52:30,172 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Gateway.GatewayCoreModule, Gateway.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-06-04 11:52:30,172 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-06-04 11:52:30,172 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-06-04 11:52:30,173 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-06-04 11:52:30,173 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-06-04 11:52:30,173 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Gateway.EntityFrameworkCore.GatewayEntityFrameworkModule, Gateway.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-06-04 11:52:30,173 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-06-04 11:52:30,173 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-06-04 11:52:30,174 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-06-04 11:52:30,174 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-06-04 11:52:30,174 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-06-04 11:52:30,174 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-06-04 11:52:30,177 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2021-06-04 11:52:30,622 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-06-04 11:52:30,622 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-06-04 11:52:30,622 [1    ] o.Configuration.LanguageManagementConfig - Converted Gateway (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-06-04 11:52:30,622 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-06-04 11:52:31,396 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Gateway.EntityFrameworkCore.GatewayDbContext, Gateway.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-06-04 11:52:32,588 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-06-04 11:52:32,668 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-06-04 11:52:32,729 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-06-04 11:52:32,732 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Gateway
+DEBUG 2021-06-04 11:52:32,766 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-06-04 11:52:33,340 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-06-04 11:52:33,559 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Gateway.MultiTenancy.Tenant, Gateway.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Gateway.Authorization.Users.User, Gateway.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2021-06-04 11:52:33,673 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2021-06-04 11:52:33,673 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Gateway.Users.Dto.CreateUserDto
+DEBUG 2021-06-04 11:52:33,680 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Gateway.Users.Dto.UserDto
+DEBUG 2021-06-04 11:52:33,680 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Gateway.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-06-04 11:52:33,681 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Gateway.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-06-04 11:52:33,681 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Gateway.PeripheralDevices.Dto.CreatePeripheralDeviceDto
+DEBUG 2021-06-04 11:52:33,681 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Gateway.PeripheralDevices.Dto.PeripheralDeviceDto
+DEBUG 2021-06-04 11:52:33,681 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Gateway.PeripheralDevices.Dto.UpdatePeripheralDeviceInput
+DEBUG 2021-06-04 11:52:33,681 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Gateway.Gates.Dto.CreateGateDto
+DEBUG 2021-06-04 11:52:33,681 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Gateway.Gates.Dto.GateDto
+DEBUG 2021-06-04 11:52:33,681 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Gateway.Gates.Dto.UpdateGateInput
+INFO  2021-06-04 11:52:37,234 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es
+INFO  2021-06-04 11:52:37,958 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\bpfalcon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2021-06-04 11:52:39,269 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2021-06-04 11:52:39,622 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Gateway.Web.Host.Controllers.HomeController.Index (Gateway.Web.Host)'
+INFO  2021-06-04 11:52:46,552 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Gateway.Web.Host.Controllers.HomeController (Gateway.Web.Host).
+INFO  2021-06-04 11:52:48,094 [15   ] c.Infrastructure.ControllerActionInvoker - Executing action method Gateway.Web.Host.Controllers.HomeController.Index (Gateway.Web.Host) - Validation state: Valid
+INFO  2021-06-04 11:52:48,103 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action method Gateway.Web.Host.Controllers.HomeController.Index (Gateway.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.5185ms.
+INFO  2021-06-04 11:52:48,257 [12   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2021-06-04 11:52:48,265 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Gateway.Web.Host.Controllers.HomeController.Index (Gateway.Web.Host) in 1707.8966ms
+INFO  2021-06-04 11:52:48,268 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Gateway.Web.Host.Controllers.HomeController.Index (Gateway.Web.Host)'
+INFO  2021-06-04 11:52:48,279 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9018.7134ms 302 
+INFO  2021-06-04 11:52:48,310 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2021-06-04 11:52:48,421 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 110.5846ms 200 text/html;charset=utf-8
+INFO  2021-06-04 11:52:48,628 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2021-06-04 11:52:48,989 [9    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', Current time: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2021-06-04 11:52:48,995 [9    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', Current time: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2021-06-04 11:52:49,201 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 572.6613ms 200 application/json;charset=utf-8
+INFO  2021-06-04 11:54:21,174 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2021-06-04 11:54:21,179 [10   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-06-04 11:54:21,185 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.2867ms 204 
+INFO  2021-06-04 11:54:21,203 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2021-06-04 11:54:21,208 [20   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-06-04 11:54:21,216 [20   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', Current time: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2021-06-04 11:54:21,220 [20   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', Current time: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2021-06-04 11:54:21,227 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2021-06-04 11:54:21,282 [20   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] GetAll() on controller Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController (Abp.AspNetCore).
+INFO  2021-06-04 11:54:21,357 [20   ] c.Infrastructure.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2021-06-04 11:54:22,312 [20   ] c.Infrastructure.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 950.2522ms.
+INFO  2021-06-04 11:54:22,358 [20   ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-06-04 11:54:22,465 [20   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 1181.0326ms
+INFO  2021-06-04 11:54:22,467 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2021-06-04 11:54:22,470 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1268.7338ms 200 application/json; charset=utf-8
+INFO  2021-06-04 11:54:22,478 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2021-06-04 11:54:22,480 [20   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-06-04 11:54:22,483 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.5428ms 204 
+INFO  2021-06-04 11:54:22,485 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2021-06-04 11:54:22,487 [14   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-06-04 11:54:22,504 [14   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', Current time: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2021-06-04 11:54:22,508 [14   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', Current time: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2021-06-04 11:54:22,512 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Gateway.Sessions.SessionAppService.GetCurrentLoginInformations (Gateway.Application)'
+INFO  2021-06-04 11:54:22,522 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing controller action with signature System.Threading.Tasks.Task`1[Gateway.Sessions.Dto.GetCurrentLoginInformationsOutput] GetCurrentLoginInformations() on controller Gateway.Sessions.SessionAppService (Gateway.Application).
+INFO  2021-06-04 11:54:23,275 [14   ] c.Infrastructure.ControllerActionInvoker - Executing action method Gateway.Sessions.SessionAppService.GetCurrentLoginInformations (Gateway.Application) - Validation state: Valid
+INFO  2021-06-04 11:54:23,396 [21   ] c.Infrastructure.ControllerActionInvoker - Executed action method Gateway.Sessions.SessionAppService.GetCurrentLoginInformations (Gateway.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 118.8245ms.
+INFO  2021-06-04 11:54:23,410 [21   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-06-04 11:54:23,436 [21   ] c.Infrastructure.ControllerActionInvoker - Executed action Gateway.Sessions.SessionAppService.GetCurrentLoginInformations (Gateway.Application) in 911.1109ms
+INFO  2021-06-04 11:54:23,439 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Gateway.Sessions.SessionAppService.GetCurrentLoginInformations (Gateway.Application)'
+INFO  2021-06-04 11:54:23,444 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 956.3958ms 200 application/json; charset=utf-8
